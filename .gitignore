@@ -1,3 +1,7 @@
+.vscode/
+项目创建说明.md
+参考/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
