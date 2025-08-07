@@ -37,8 +37,11 @@ comfyui下载地址：
 从项目的 `pynini安装文件` 文件夹选择对应的 pynini 安装包进行安装：
 
 python 3.10 : `..\..\python_embeded\python.exe -m pip install ".\ComfyUI-Srt2Voice\pynini_files\pynini-2.1.6.post1-cp310-cp310-win_amd64.whl"`
+
 python 3.11 : `..\..\python_embeded\python.exe -m pip install ".\ComfyUI-Srt2Voice\pynini_files\pynini-2.1.6.post1-cp311-cp311-win_amd64.whl"`
+
 python 3.12 : `..\..\python_embeded\python.exe -m pip install ".\ComfyUI-Srt2Voice\pynini_files\pynini-2.1.6.post1-cp312-cp312-win_amd64.whl"`
+
 python 3.13 : `..\..\python_embeded\python.exe -m pip install ".\ComfyUI-Srt2Voice\pynini_files\pynini-2.1.6.post1-cp313-cp313-win_amd64.whl"`
 
 安装 WeTextProcessing（不安装其依赖）：
