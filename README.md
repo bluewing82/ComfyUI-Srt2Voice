@@ -34,9 +34,9 @@ comfyui下载地址：
 
 `..\..\python_embeded\python.exe --version`
 
-从项目的 `pynini安装文件` 文件夹选择对应的 pynini 安装包进行安装：
+从项目的 `pynini安装文件` 文件夹选择对应的 pynini 安装包进行安装（比如pynini-2.1.6.post1-cp311-cp311-win_amd64.whl就对应python3.11版本）：
 
-`..\..\python_embeded\python.exe -m pip install "文件所在目录\pynini-2.1.6.post1-cp312-cp312-win_amd64.whl"`
+`..\..\python_embeded\python.exe -m pip install "pynini的whl文件的完整路径"`
 
 安装 WeTextProcessing（不安装其依赖）：
 
