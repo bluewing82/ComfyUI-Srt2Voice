@@ -14,7 +14,13 @@
 
 ## 🛠️ 安装步骤
 
-### 1. 克隆插件代码
+### 1. 如果还没有安装comfyui，先下载安装
+
+comfyui下载地址：
+
+[https://github.com/comfyanonymous/ComfyUI/releases/latest/download/ComfyUI_windows_portable_nvidia.7z](https://github.com/comfyanonymous/ComfyUI/releases/latest/download/ComfyUI_windows_portable_nvidia.7z)
+
+### 2. 克隆插件代码
 
 进入 ComfyUI 的 custom_nodes 目录，执行以下命令克隆插件代码：
 
@@ -22,7 +28,7 @@
 
 `git clone https://github.com/bluewing82/ComfyUI-Srt2Voice`
 
-### 2. 安装 pynini
+### 3. 安装 pynini
 
 查看 Python 版本：
 
@@ -36,13 +42,13 @@
 
 `..\..\python_embeded\python.exe -m pip install WeTextProcessing --no-deps`
 
-### 3. 安装环境依赖
+### 4. 安装环境依赖
 
 安装插件所需的依赖：
 
 `..\..\python_embeded\python.exe -m pip install -r .\ComfyUI-Srt2Voice\requirements.txt`
 
-### 4. 下载 IndexTTS 模型
+### 5. 下载 IndexTTS 模型
 
 从 Hugging Face 下载 IndexTTS 模型文件，链接：
 
