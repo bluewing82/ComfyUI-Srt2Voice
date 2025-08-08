@@ -44,7 +44,7 @@ python 3.12 : `..\..\python_embeded\python.exe -m pip install ".\ComfyUI-Srt2Voi
 
 python 3.13 : `..\..\python_embeded\python.exe -m pip install ".\ComfyUI-Srt2Voice\pynini_files\pynini-2.1.6.post1-cp313-cp313-win_amd64.whl"`
 
-安装 WeTextProcessing（不安装其依赖）：
+安装 WeTextProcessing：
 
 `..\..\python_embeded\python.exe -m pip install WeTextProcessing --no-deps`
 
